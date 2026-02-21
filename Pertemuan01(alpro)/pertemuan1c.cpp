@@ -19,7 +19,7 @@ int main()
     printf("Masukkan NIM : ");
     scanf("%d", &nim);
 
-    getchar();
+    getchar(); //buat klo ngebug dont mind it
 
     printf("Masukkan KOM : ");
     gets(kom);
@@ -33,44 +33,13 @@ int main()
 
     printf("NIM : %d",nim);
     
-    printf("KOM : ");
+    printf("\nKOM : ");
     puts(kom);
-    // getchar();
 
-    printf("IP : &f\n",ip);
+    // scanf("%s",kom);
+    printf("IP : %.2f\n", ip);
 
     printf("Preses any button to continue...");
     getch();
-
-
-
-
-
-
-
-    // float a,b,t,c,d,luas,keliling;
-    // char e;
-    // printf("tesinput huruf");
-    // scanf("%s", &e);
-
-    // printf("Masukkan alas bawah (a) : ");
-    // scanf("%f", &a);
-
-    // printf("Masukkan alas bawah (b) : ");
-    // scanf("%f", &b);
-    
-    // printf("Masukkan sisi kanan (c) : ");
-    // scanf("%f", &c);
-
-    // printf("Masukkan sisi kiri (d) : ");
-    // scanf("%f", &d);
-
-    // printf("Masukkan alas bawah (t) : ");
-    // scanf("%f", &t);
-
-    // luas=a+b*t/2;
-    // keliling=(a+b+c+d);
-    // printf("Luas Trapesium : %.1f",luas);
-    // printf("\nKeliling Trapesium : %.1f",keliling);
     
 }
